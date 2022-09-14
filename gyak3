@@ -1,0 +1,21 @@
+#include<stdio.h>
+
+#define PI 3.14
+
+int main() {
+
+    int r;
+    double k, t;
+
+    printf("\nadja meg a kor sugarat: ");
+
+    scanf("%d", &r);
+
+
+    t = pow(r,2)*PI;
+    k = 2*PI*r;
+
+    printf("\n a kor terulete: %f\n", t);
+    printf("\n a kor kerulete: %f\n", k);
+   
+    }
